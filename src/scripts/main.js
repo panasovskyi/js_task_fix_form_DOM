@@ -18,6 +18,6 @@ inputs.forEach((input) => {
 
   if (input.name in labelTextMap) {
     label.textContent = labelTextMap[input.name];
+    input.placeholder = label.textContent = labelTextMap[input.name];
   }
-  input.placeholder = label.textContent = labelTextMap[input.name];
 });
